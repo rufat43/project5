@@ -1,0 +1,14 @@
+/* color */
+:root{
+    --bg-color: rgb(27, 27, 27);
+    --text-color-main: rgb(237, 237, 237);
+    --text-color-support: rgb(58, 58, 58);
+
+}
+/* color */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
