@@ -166,7 +166,8 @@ nav{
 .keyframes-main p{
     font-size: 35px;
     color: var(--text-color-support);
-    animation: text 5s infinite linear;
+    animation: text 7s infinite linear;
+    animation-direction: alternate;
     padding-left: 100%;
     
 }
@@ -177,7 +178,7 @@ nav{
     }
     
     100%{
-      transform: translate(-120%, 0);
+      transform: translate(-100%, 0);
     }
   }
 
