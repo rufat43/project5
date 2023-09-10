@@ -263,7 +263,7 @@ nav{
     margin: 1rem 3rem;
 }
 
-.card-1 h1{
+.card h1{
     font-size: 35px;
     font-weight: 200px;
     margin-bottom: 40px;
@@ -278,6 +278,7 @@ nav{
     align-items: center;
     justify-content: center;
     width: 1170px;
+    margin-top: 20px;
 }
 
 .card-1-img img{
@@ -299,7 +300,6 @@ nav{
 
 .card-1-table h3{
     font-size: 25px;
-    font-weight: 200px;
     margin-bottom: 20px;
     font-weight: 200;
     text-align: center;
@@ -336,11 +336,47 @@ nav{
     border: 2px solid var(--text-color-support);
     padding: 30px;
     background-color: var(--bg-color);
+    margin-top: 150px;
 }
-
 
 .card-2-img img{
     width: 700px;
+    margin-left: 300px;
+    padding-top: 30px;
+}
+
+.card-2-container table{
+    border-spacing: 30px 10px;
+}
+
+.card-2-table h3{
+    font-size: 25px;
+    margin-bottom: 20px;
+    font-weight: 200;
+    text-align: center;
+}
+
+.card-2-table td{
+    border-bottom: 2px dotted var(--text-color-support);
+    font-size: 20px;
+}
+
+.td-center{
+    text-align: center;
+}
+
+.card-2-button{
+    margin-top: 10px;
+    text-align: center;
+}
+
+.card-2-button a{
+    text-decoration: none;
+    color: var(--bg-color);
+    border: 2px solid white;
+    background-color: var(--text-color-main);
+    font-size: 22px;
+    padding: 5px 15px;
 }
 
 /* card-2 end */
@@ -350,7 +386,7 @@ nav{
     font-weight: 200px;
     margin-bottom: 40px;
     font-weight: 200;
-    margin-top: 100px;
+    margin-top: 130px;
     text-align: center;
 }
 
@@ -360,11 +396,13 @@ nav{
     align-items: center;
     justify-content: center;
     width: 1170px;
+    margin-left: 30px;
 }
 
 .card-3-img img{
     width: 700px;
     margin-left: -300px;
+    padding-top: 30px;
 }
 
 .card-3-container{
@@ -373,6 +411,7 @@ nav{
     padding: 30px;
     background-color: var(--bg-color);
     margin-left: 500px;
+    margin-top: 30px;
 }
 
 .card-3-container table{
@@ -381,7 +420,6 @@ nav{
 
 .card-3-table h3{
     font-size: 25px;
-    font-weight: 200px;
     margin-bottom: 20px;
     font-weight: 200;
     text-align: center;
@@ -410,3 +448,8 @@ nav{
     padding: 5px 15px;
 }
 /* card-3 end */
+/* footer start */
+
+
+
+/* footer end */
