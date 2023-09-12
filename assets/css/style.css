@@ -185,7 +185,7 @@ nav{
     animation: text 7s infinite linear;
     animation-direction: alternate;
     padding-left: 100%;
-    width: 1170px;
+    width: 1000px;
     text-align: center;
 }
 
@@ -450,6 +450,84 @@ nav{
 /* card-3 end */
 /* footer start */
 
+.footer-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 100px;
+}
 
+.footer-social{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 380px;
+}
+
+.fotter-logo{
+    display: flex;
+    flex-direction: row;
+}
+
+.fotter-logo a{
+    text-decoration: none;
+    color: var(--text-color-main);
+}
+
+.fotter-logo img{
+    width: 100px;
+    padding-left: 50px;
+    padding-bottom: 10px;
+}
+
+.fotter-info-1 p{
+    color: var(--text-color-support);
+    font-size: 20px;
+}
+
+.fotter-info-3 a{
+    text-decoration: none;
+    color: var(--text-color-main);
+    font-size: 20px;
+}
+
+.fotter-card-1{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    width: 300px;
+}
+
+.fotter-card-1 a{
+    text-decoration: none;
+    color: var(--text-color-main);
+    font-size: 20px;
+}
+
+.fotter-card-2{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    width: 200px;
+}
+
+.fotter-card-2 a{
+    text-decoration: none;
+    color: var(--text-color-main);
+    font-size: 20px;
+}
+
+.fotter-card-3{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5;
+    width: 250px;
+}
+
+.fotter-card-3 a{
+    text-decoration: none;
+    color: var(--text-color-main);
+    font-size: 20px;
+}
 
 /* footer end */
